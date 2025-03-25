@@ -72,4 +72,34 @@ img {
 .card:hover .image-hover{
     display: block;
 }
+.sales {
+    position: absolute;
+    bottom: 50px;
+    background-color: #ff0000;
+    padding: 5px 5px;
+    color: #ffffff;
+}
+.sustainable {
+    position: absolute;
+    bottom: 50px;
+    left: 55px;
+    background-color: #39b039;
+    padding: 5px 5px;
+    color: #fff;
+}
+.sustainable-last {
+    position: absolute;
+    bottom: 50px;
+    background-color: #39b039;
+    padding: 5px 5px;
+    color: #fff;
+}
+.heart {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    background-color: #fff;
+    padding: 5px 10px;
+    font-size: 20px;
+}
 /* FOOTER */
