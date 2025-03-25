@@ -56,10 +56,17 @@ img {
 .logo {
     max-width: 100px;
 }
+.icons-header {
+    display: flex;
+   gap: 15px;
+}
 /* MAIN */
 .col-30 {
     width:30%;
     margin-top: 50px;
+}
+.card span strong {
+    color: #ff0000;
 }
 .card {
     position: relative;
@@ -74,14 +81,14 @@ img {
 }
 .sales {
     position: absolute;
-    bottom: 50px;
+    bottom: 90px;
     background-color: #ff0000;
     padding: 5px 5px;
     color: #ffffff;
 }
 .sustainable {
     position: absolute;
-    bottom: 50px;
+    bottom: 90px;
     left: 55px;
     background-color: #39b039;
     padding: 5px 5px;
@@ -89,7 +96,7 @@ img {
 }
 .sustainable-last {
     position: absolute;
-    bottom: 50px;
+    bottom: 90px;
     background-color: #39b039;
     padding: 5px 5px;
     color: #fff;
@@ -101,5 +108,11 @@ img {
     background-color: #fff;
     padding: 5px 10px;
     font-size: 20px;
+}
+.brand {
+   font-size: 12px;
+}
+.product-description {
+    font-weight: 900;
 }
 /* FOOTER */
