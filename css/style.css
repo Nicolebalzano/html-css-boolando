@@ -30,6 +30,10 @@ img {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+.icons {
+    display: flex;
+   gap: 15px;
+}
 /* Layout */
 
 /* HEADER */
@@ -55,10 +59,6 @@ img {
 }
 .logo {
     max-width: 100px;
-}
-.icons-header {
-    display: flex;
-   gap: 15px;
 }
 /* MAIN */
 .col-30 {
@@ -116,3 +116,32 @@ img {
     font-weight: 900;
 }
 /* FOOTER */
+.bg-dark {
+    background-color: #171616;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+h4 {
+    margin-bottom: 10px;
+}
+.left-footer {
+    color: #ffffff;
+}
+.info {
+    display: flex;
+    gap: 15px;
+    font-size: 15px;
+    
+}
+.info a {
+    text-decoration: none;
+    color: #fff;
+}
+.left-footer ul {
+    list-style: none;
+    padding-top: 10px;
+}
+.right-footer {
+ 
+}
