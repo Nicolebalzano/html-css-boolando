@@ -20,8 +20,10 @@ img {
 .font-white {
     color: #fff;
 }
-.flex {
-    display: flex;
+
+.margin-y {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 /* Layout */
 
@@ -50,5 +52,51 @@ img {
     max-width: 100px;
 }
 /* MAIN */
-
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col-30 {
+    width: 30%;
+}
+.card {
+    position: relative;
+}
+.image {
+    position: absolute;
+}
+.image-hover {
+    display: none;
+    position: absolute;
+}
+.card:hover .image-hover {
+    display: block;
+}
+.discount {
+    position: absolute;
+    bottom: -250px;
+    background-color: red;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+.sustainable {
+    position: absolute;
+    bottom: -250px;
+    left: 55px;
+    background-color: green;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+.heart{
+    position: absolute;
+    top:0px;
+    right: 0px;
+    background-color: #fff;
+    color: #141414;
+    padding: 5px 10px;
+    font-size: 20px;
+}
 /* FOOTER */
