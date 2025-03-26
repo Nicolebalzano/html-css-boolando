@@ -24,7 +24,7 @@ img {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 30px;
+    padding: 30px;
 }
 .margin-y {
     margin-top: 40px;
@@ -40,14 +40,14 @@ img {
 .header {
     background-color: #FF6900;
     height: 80px;
-    padding-top:30px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 .flex-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* debug */
-    position: sticky;
 }
 .ul-header {
     list-style: none;
@@ -79,6 +79,7 @@ img {
 .card:hover .image-hover{
     display: block;
 }
+
 .sales {
     position: absolute;
     bottom: 90px;
@@ -86,6 +87,7 @@ img {
     padding: 5px 5px;
     color: #ffffff;
 }
+
 .sustainable {
     position: absolute;
     bottom: 90px;
@@ -141,7 +143,4 @@ h4 {
 .left-footer ul {
     list-style: none;
     padding-top: 10px;
-}
-.right-footer {
- 
 }
